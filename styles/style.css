@@ -9,14 +9,14 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
-  margin: 133px auto;
-  overflow: hidden;
+  margin: auto;
 }
 
 h1,
@@ -107,6 +107,12 @@ ol {
 .content__list {
   height: 298px;
   overflow: auto;
+  -ms-overflow-style: none;
+}
+
+.content__list::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 .content__list-item {
