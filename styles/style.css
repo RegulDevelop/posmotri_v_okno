@@ -107,12 +107,6 @@ ol {
 .content__list {
   height: 298px;
   overflow: auto;
-  -ms-overflow-style: none;
-}
-
-.content__list::-webkit-scrollbar {
-  width: 0;
-  height: 0;
 }
 
 .content__list-item {
